@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+/* css cho Tousis.html */
+
+li{
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-left: 20px;
+
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-transform:uppercase ;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.general{
+    font-style: italic;
+    margin: 10px;
+}
+
+.place{
+    text-decoration:underline;
+    font-family: cursive;
+    font-size: medium;
+    text-transform:capitalize;
+    padding: 15px;
+}
+
+/* Css cho London.html */
+a{
+    padding: 10px;
+}
+

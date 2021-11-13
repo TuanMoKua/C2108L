@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section h2{
+    text-decoration:underline;
+    text-align: justify;
+    margin-left: 15px;
+    text-transform:uppercase;
+    margin-top: 20px ;
+}
+
+.section >p{
+    text-align:justify;
+    margin-left: 1px;
+    padding-top: 20px;
+}
+.sub_section h3{
+    text-decoration:underline;
+    text-align: justify;
+    margin-left: 5%;
+    text-transform:uppercase;
+}
+.sub_section >p{
+    margin-left: 5%;
+    margin-top: 10px ; 
+    text-align: justify;
+}
+.sub_section ul>li{
+    margin-left: 10%;
+    margin-top: 20px ;
+    list-style: none;
+    font-family:cursive ;
+    text-align: justify;
+}
