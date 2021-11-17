@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #FFFFCC;
+
+}
+
+#navigation{
+    position:absolute;
+    margin-left: 25%;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+}
+ul{
+    position: absolute;
+    margin-left: 15%;
+
+}
+ul li{
+    display: inline-block;
+    position:relative;
+    border-radius: 15px;
+    border:solid;
+    background-color: #07e98b ;
+    font-size: x-large;
+    list-style-type: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left:70px;
+    margin-top:60px;
+}
+
+
+
+#tablesectionOne {
+    table-layout: fixed;
+    text-align: center;
+    background-color: #FFFFDD;
+    position: absolute;
+    margin-top: 7em;
+    margin-left: 50px;
+}
+#tablesectionTwo  {
+    table-layout: fixed;
+    text-align: center;
+    background-color: #FFFFDD;
+    position: absolute;
+    margin-top: 7em;
+    margin-left: 50px;
+
+
+}
+#tablesectionThree {
+    table-layout: fixed;
+    text-align: center;
+    background-color: #FFFFDD;
+    position: absolute;
+    margin-top: 7em;
+    margin-left: 50px;
+}
+#tablesectionFour  {
+    table-layout: fixed;
+    text-align: center;
+    background-color: #FFFFDD;
+    position: absolute;
+    margin-top: 7em;
+    margin-left: 50px;
+
+}
+
+
+.caption{
+  background-color:rgb(255,185,115);
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+th
+{
+    border: thin solid #D0D0D0;
+    empty-cells: show;
+    font-weight: bold;
+}
+td
+{
+    border: thin solid #D0D0D0;
+    empty-cells: show;
+    font-weight: bold;
+}
+
+
+
+ 
