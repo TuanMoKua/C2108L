@@ -7,13 +7,19 @@ body{
     background-color: #FFFFCC;
 
 }
+/* h2{ 
+    text-decoration: underline;
+     text-align: center;
+  
+ } */
 
 #navigation{
     position:absolute;
     margin-left: 25%;
-    text-decoration: underline;
-    text-align: center;
     font-size: 40px;
+    /* text-align: center; */
+    width: 100%;
+    text-decoration: underline;
 }
 ul{
     position: absolute;
