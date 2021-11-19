@@ -4,16 +4,6 @@
     box-sizing: border-box;
 
 }
-#main{
-    background-color: burlywood;
-    position:relative;
-}
-#main h1{
-    text-align:center;
-    text-transform: uppercase;
-    font-weight: 60px;
-}
-
 
 
 
