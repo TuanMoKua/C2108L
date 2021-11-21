@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+/* chinh sửa phần Header */
+.header{
+    background-image: url(http://mauweb.monamedia.net/dongho/wp-content/uploads/2018/03/slide3.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    min-height: 800px;
+}
+
+.aling-center{
+    width: 80%;
+    display: flex;
+    margin: 15px auto;
+}
+
+.header .aling-center .logo{
+    width: 15%;
+    text-align: center;
+}
+.aling-center .logo img{
+    max-height: 60px;
+}
+
+
+.header .aling-center menu{
+    width: 70%;
+}
+
+.aling-center .menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.aling-center .menu ul li{
+    text-transform: uppercase;
+    font-size: 15px;
+    border-right: groove white 1px;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu ul li>a{
+    color: white;
+    text-decoration: none;
+}
+.menu ul li:hover >a{
+    color: turquoise;
+}
+
+.aling-center .user{
+    width: 15%;
+    display: flex;
+}
+
+.aling-center .user img{
+    max-height: 30px;
+    padding: 2px 15px ;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.main{
+    position: absolute; 
+    margin-top: 48%;  
+    width: 100%;  
+}
+
+.main .man h2, .woman h2, .couple h2, .stup h2{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 46px;
+    
+    
+}   
+.watch {
+	display: flex;
+	width: 100%;
+}
+.list {
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+
+}
+
+.list img{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer .infor h2, .footer .infor >p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
