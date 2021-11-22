@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main, .header, .menubar, .infor, .container{
+    width: 100%;
+}
+/* Header */
+.header{
+    display: flex;
+    background-color: rgb(9, 146, 61);
+}
+
+.header .sologan{
+    width: 70%;
+    padding: 30px 250px;       
+}
+
+.sologan h2{    
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.sologan p{
+    text-transform:capitalize; 
+    color: white;
+}
+
+.header .logo{  
+    width: 10%;
+    float: left ;
+    position: absolute; 
+}       
+.header .logo >img{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.header .user{
+    width: 15%;
+    right: 0;
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+}
+
+.user > img{        
+    max-height: 50px;   
+    max-width: 50px;
+    padding-top: 15px
+}   
+
+.user >p {      
+    text-transform: uppercase;  
+    margin-top: 15px;
+    line-height: 30px;
+    color: white;
+    cursor: pointer;
+    border: solid 1px white;
+    font-size: 16px;
+}
+
+.user p:hover{
+    color: tomato;
+}   
+
+/* Menubar */
+
+.menubar{
+    display: flex;
+    background-color: rgb(9, 146, 61);
+    border: groove 1px black;
+}
+
+.menubar .left{
+    width: 80%;
+}
+
+.menubar .right{
+    width: 20%; 
+}
+
+.menubar .menu{
+    list-style-type: none;      
+    display: flex;
+    position: relative;
+}
+.menubar ul li{
+    list-style-type: none;
+    line-height: 46px;  
+    cursor: pointer;
+}
+
+.menubar ul li >a{
+    text-decoration:none;
+    font-size: 20px;    
+    text-transform: uppercase;
+    padding: 0 30px;
+    color:white;
+}
+
+.menubar ul li:hover >a{
+    color: tomato;
+}
+
+/* content*/  
+
+
+.content{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 50%;
+    background-image: url(https://chuyenphatnhanhsos.com/wp-content/uploads/2019/09/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+}
+
+.aling-center{
+    width: 80%;
+    display: flex;
+    margin: 15px auto;
+}
+/* infor */
+.infor{
+    display: flex;
+}
+
+.support{  
+    width: 24%;
+    display: inline-block;
+}
+
+.support > img{
+    padding:10px 40px;
+    max-height: 300px;
+    max-width: 300px;
+    border-right: double 1px white;
+}
+
+/* container */
+
+.container{
+    position: absolute;
+}
+
+.container h2{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 46px;
+}
+.elec, .cnc{
+    border: solid 1px greenyellow;
+}
+
+.tb{
+    width: 100%;
+    display:flex
+}
+
+
+
+.list{
+    width: 25%;
+	text-align: center;
+	padding: 0 10px;
+}
+.list img{
+    max-height: 200px;
+    max-width: 200px;
+}
+/* footer */
+.footer{
+    background-color: black;
+}
+
+.footer .infor h2, .footer .infor >p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
