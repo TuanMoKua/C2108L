@@ -3,7 +3,134 @@
     margin: 0;
     box-sizing: border-box;
 }
-.cotainer, .header, .banner, .menu-bar, .main, .footer {
+.cotainer{
     width: 100%;
 }
+
+.header{
+    width: 100%;
+}
+.header .baner{
+    width: 100%;
+    background-color:rgb(212, 229, 190);
+  
+    
+}
+
+.header .baner h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 231, 53);
+    padding: 0 40px;
+    line-height: 50px;
+    font-size: 40px;
+ }      
+ .header .baner p{  
+     color: purple;
+    padding: 0 40px 20px 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+ }
+
+ .menu-bar{
+    width: 100%;
+ }
+
+ .menu{
+     width: 100%;
+     display: flex;
+     background-color: rgb(58, 165, 58);
+     line-height: 46px;
+ }
+
+.menu .left{
+    width: 70%;
+    position: relative;
+}
+
+.menu .left ul li{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 46px;
+    padding: 0 12px;
+}
+
+.left ul li >a{
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    border-right: solid 1px white;
+    padding: 0 12px;
+}
+
+.menu .right{
+    width: 30%;
+    position: relative;
+    background-color: orange;
+}
+
+.menu .right ul li{
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+}
+
+.main .content-left{
+    width: 70%;
+    position: relative;
+    text-align: justify;
+}
+
+.content-left > h1{
+    padding: 12px 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+}   
+
+.content-left > p{
+    padding: 12px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+.main .content-right{
+    width: 30%;
+    position: relative;
+    left: 0;
+}
+
+.content-right .panel{
+    display: block;
+    padding: 12px 12px;
+    margin-top: 12px;
+}
+
+.panel .first-panel {
+    background-color: palegreen;
+    padding: 5px 10px;
+}   
+
+.panel .sec-panel{
+    padding-top: 12px;
+    padding-left: 60px;
+    line-height: 30px;  
+}
+
+.sec-panel ul{
+    list-style-type: none;
+}
+.sec-panel ul li{
+    border-bottom: solid 1px grey;
+    padding: 10px;
+}
+.sec-panel ul li>a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+    
+
 
