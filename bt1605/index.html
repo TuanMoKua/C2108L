@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h2>Bài tập 1605- Giải pt bậc nhất</h2>
+    <p style="font-size: larger;">a1x + b1 = 0</p>
+    <br>
+    <script>
+
+        function match1(a1,b1){
+            var x0
+            if(a1==0 & b1==0){
+                document.write(' Phương trinh đã cho vô số nghiệm!!');
+            }
+            else if (a1!=0 && b1==0){
+                document.write(` Phương trinh đã cho có nghiệm x0 = 0`);
+            } else if(a1==0 && b1!=0){
+                document.write(' Phương trinh đã cho vô nghiệm!!');
+            }
+            else {
+                document.write('Phương trinh đã cho có nghiệm x0 = ' + (-b1/2*a1));
+            }
+        }
+
+        a1 = parseInt(prompt(' Nhap a1'));
+        b1 = parseInt(prompt(' Nhap b1'));
+        match1(a1,b1)
+
+       
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h2>Bài tập 2006-Javascript</h2>
+    <script type="text/javascript">
+
+      /*  function max5(a,b,c,d,e){
+            var max=a
+            if(b>max){
+                max=b
+            }
+            else if (c>max){
+                max =c
+            }
+            else if(d>max){
+                max=d
+            }
+            else if(e>max){
+                max=e
+            }
+         return max
+        }
+
+    a = parseInt( prompt('Nhập giá trị a'))
+    b = parseInt( prompt('Nhập giá trị b'))
+    c = parseInt( prompt('Nhập giá trị c'))
+    d = parseInt( prompt('Nhập giá trị d'))
+    e = parseInt( prompt('Nhập giá trị e'))
+
+    max= max5(a,b,c,d,e)
+
+    document.write(`<br/>max = ${max}`) */
+    
+    //  cách khác//
+    function FindMax(N){
+     var a = new Array(N)
+
+    for (let i = 0; i < a.length; i++) {
+     a[i] = parseInt(prompt(`Nhập a${i}:`))
+        }
+        max = a[0]
+        for (let i = 1; i < a.length; i++) {
+             if (a[i] > max) {
+                 max = a[i]
+                 }  
+        }  
+return max
+}
+
+N = parseInt(prompt('Nhập số phần tử N:'))
+max = FindMax(N)
+document.write(`<br/> Max = ${max}`)
+
+
+
+
+
+
+    </script>
+</body>
+</html>

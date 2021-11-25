@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h2>Bài tập 1602- Tính N!</h2>
+    <p>
+        Ví dụ: 
+        <br>
+            1! =1 <br>
+            0!=1 <br>
+            4!= 1*2*3*4=24
+    </p>
+    <p>Tính giai thừa trong Javascript</p>
+
+    <script>
+
+        function giaithua(N){
+            var giaithua = 1;
+            if (N==1 || N==0){
+                document.write(`Giai thừa của ${N} là: 1`);
+            }
+            else if(N<0){
+                document.write('FAIL!');
+            }
+            else {
+                for(var i=1; i<=N; i++){
+                    giaithua *=i
+                }
+                document.write(`Giai thừa của ${N} =  ${giaithua}`);
+            }
+        }
+
+        N = parseInt(prompt(' Nhap số cần tính giai thừa N:'));
+        giaithua(N);
+
+    </script>
+</body>
+</html>
