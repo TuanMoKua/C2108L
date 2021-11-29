@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Order Form </title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+                <h2>Puschase Order Form</h2>
+        </div>
+
+        <div class="infor"> 
+            <form action="">
+              <fieldset>
+                    <legend style="color:mediumblue; font-size: 18px;">Product Information</legend>
+                    <table >
+                        <tr>
+                    <td class="left"><label for="product">Product:</label></td>
+                     <td class="right">
+                        <select name="product" id="product">
+                            <option value="">Select</option>
+                            <option value="650">Comfort Sleeper</option>
+                            <option value="975">Morgan Kids Bed</option>
+                            <option value="480">Entertainment Cabinet </option>
+                         </select>
+                     </td>
+                     </tr>
+
+                     <tr>
+                    <td class="left"><label for="unit">Unit Price ($):</label></td>
+                    <td class="right"><input type="number" id="unit" name="unit" ></td>
+                    </tr>
+
+                    <tr>
+                        <td class="left"><label for="quantity">Quantity:</label></td>
+                        <td class="right"><input type="number" id="unit" name="unit" ></td>
+                    </tr>
+
+                    <tr>
+                        <td class="left"><label for="quantity">Total Price ($):</label></td>
+                        <td class="right"><input type="number" id="unit" name="unit" ></td>
+                    </tr> 
+                </table>    
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend style="color:mediumblue; font-size: 18px;">Shipping Information</legend>
+                    <table>
+                     <tr>
+                        <td class="left"><label for="name">Full Name:</label></td>
+                        <td class="right"><input type="text" id="name" name="name" ></td>
+                    </tr>
+
+                    <tr>
+                        <td class="left"><label for="add">Shipping Address:</label></td>
+                        <td class="right"><textarea name="add" id="add" cols="30" rows="10"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td class="left"><label for="card">Credit Card:</label></td>
+                        <td class="right">
+                        <select name="card" id="card">
+                            <option value="">Select</option>
+                            <option value="650">VISA</option>
+                            <option value="975">Master Card</option>
+                            <option value="480">American Express</option>
+                         </select>
+                     </td>
+                     </tr>
+
+                    <tr>
+                        <td class="left"><label for="card-number">Credit Card Number:</label></td>
+                        <td class="right">
+                            <input type="text" id="card-number" name="card-number"maxlength="4" size="4" >
+                            <input type="text" id="card-number" name="card-number"maxlength="4" size="4">
+                            <input type="text" id="card-number" name="card-number"maxlength="4" size="4" >
+                            <input type="text" id="card-number" name="card-number"maxlength="4" size="4">
+                        </td>
+                    </tr>  
+                </table>   
+                </fieldset>
+                <div class="butom">
+                    <input type="submit" value="SUBMIT"/>
+                    <input type="submit"  value="RESET"/>
+                </div>
+            </form>
+        </div>
+    
+    
+
+    </div>
+</body>
+</html>

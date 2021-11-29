@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+
+
+
+.main{
+    width: 30%;
+    background-color: rgb(210, 247, 205);
+    border: solid 1px;
+    margin: 10px 12px;
+}
+
+.header{
+    width: 50%;
+    background-color: rgb(171, 219, 247);
+    border: groove 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.header h2{
+    text-align: center;
+    color: mediumblue;
+}
+
+.infor{
+    padding: 10px 10px;
+}
+
+fieldset{
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+
+table, td {
+    border: 2px solid rgb(95, 192, 209);
+  }
+
+.left{
+    width: 30%;
+}
+
+.butom{
+    background-color: rgb(180, 189   , 165);
+    width: 100%
+}
+
+.butom input{
+    width: 20%;
+    margin: 0 8.5% 0 8.5%;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+        .main{
+            border: solid 1px rgb(32, 118, 230);
+            line-height: 46px;
+            width: 80%;
+        }
+        .header{
+            background-color: rgb(32, 118, 230);
+
+        }
+       p {
+            margin: 0;
+            color:white;
+            font-size: 20px;
+            margin-left: 10px;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+    <p> Giải phương trình bậc nhất</p>
+        </div>
+    <form>
+    <input type="button" style="color:white; background-color: mediumspringgreen; border: solid 1px greenyellow;" name="valueA" value="Nhap gia tri A" id="a"  onclick="inputA()">
+	<input type="button" style="color:white; background-color: mediumspringgreen; border: solid 1px greenyellow;" name="valueB" value="Nhap giá trị  B" id="b" onclick="inputB()">
+	<input type="button" style="color:white; background-color: mediumspringgreen; border: solid 1px greenyellow;" name="sum" value="Ket qua" id="sum" onclick="outsum()">
+    </form>
+
+    <script>
+        function inputA() {
+			a = parseInt(prompt("Nhap a = "));
+		}
+		function inputB() {
+			b = parseInt(prompt("Nhap b = "));
+		}
+		function outsum() {			
+			var sum = a + b;
+			alert("Tong a va b la: "+ sum);
+		}
+
+    </script>
+
+    </div>
+
+</body>
+</html>

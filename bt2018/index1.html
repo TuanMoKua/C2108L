@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" name="valueA" value="Nhap A" id="a" onclick="inputA()">
+	<input type="button" name="valueB" value="Nhap B" id="b" onclick="inputB()">
+	<input type="button" name="kq" value="Ket qua" id="ketQua" onclick="outKQ()">
+	<script type="text/javascript">
+		function inputA() {
+			a = parseInt(prompt("Nhap a = "));
+		}
+		function inputB() {
+			b = parseInt(prompt("Nhap b = "));
+		}
+		function outKQ() {			
+			var c = a + b;
+			alert("Tong a va b la: "+ c);
+		}
+	</script>
+</body>
+</html>

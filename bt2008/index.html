@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Student</title>
+
+    <style>
+        .main{
+            border: solid 1px rgb(32, 118, 230);
+            line-height: 46px;
+            width: 80%;
+        }
+        .header{
+            background-color: rgb(32, 118, 230);
+
+        }
+       p {
+            margin: 0;
+            color:white;
+            font-size: 20px;
+            margin-left: 10px;
+            
+        }
+
+        table{
+            margin-left: 10px;
+        }
+        th, td{
+            border: solid #D0D0D0 1px;
+        }
+    </style>
+</head>
+<body> 
+    <div class="main">
+        <div class="header">
+    <p> Managenment Products</p>
+        </div>
+<br>
+<table border="1" cellpadding="5">
+    <tr>
+        <th>STT</th>
+        <th>Họ & tên</th>
+        <th>Age</th>    
+        <th>Addres</th>
+        <th>Email</th>
+    </tr>
+
+<script>
+
+    var studentlist = [
+        {
+            "Name": "Nguyễn Văn Cường",
+            "Age": 28,
+            "Addres": "Hà Nội",
+            "Email": "cuongnguyen@gmail.com",
+        },
+        {
+            "Name":"Hoàng Văn An",
+            "Age": 25,
+            "Addres": "Hà Nội",
+            "Email": "an288@gmail.com",
+        },
+        {
+            "Name":"Trần Hiểu Đông",
+            "Age": 24,
+            "Addres": "Thái Bình",
+            "Email": "dongtran180@gmail.com",
+        },
+        {
+            "Name":"Hồ Quang hiếu",
+            "Age": 26,
+            "Addres": "Hà Nội",
+            "Email": "idol220@gmail.com",
+        },
+        {
+            "Name":"Chu Nguyên Trương",
+            "Age": 25,
+            "Addres": "Thái Bình",
+            "Email": "vuaminh@gmail.com",
+        },
+        {
+            "Name":"Võ Tắc Thiên",
+            "Age": 24,
+            "Addres": "Thanh Hóa",
+            "Email": "queenblack@gmail.com",
+        },
+        {
+            "Name":"Châu Khải Phong",
+            "Age": 24,
+            "Addres": "Nhanh Hóa",
+            "Email": "n4u@gmail.com",
+        },
+    ]
+
+    console.log(studentlist)
+
+    // Phần đẩy hs vào mảng//
+        std = 
+            {
+            "Name":"Nguyễn Quảng An",
+            "Age": 24,
+            "Addres": "Nam Định",
+            "Email": "quangan23@gmail.com",
+        }
+
+        studentlist.push(std)
+
+        // Hàm lưu và đọc ra bảng//
+    function showstudentlist(studentlist){
+        var dem=0;
+        for(std of studentlist){
+            document.write(`<tr>
+				<td>${++dem}</td>
+				<td>${std.Name}</td>
+				<td>${std.Age}</td>
+				<td>${std.Addres}</td>
+				<td>${std.Email}</td>
+			</tr>`)
+        }
+    }
+    showstudentlist(studentlist)
+
+
+    /* Yêu cầu người sd nhập số lượng sinh viên muốn nhập N
+    Với mỗi sinh viên sẽ nhập các thông tin về Stt họ tên v.,v,
+    và lưu vào 1 mảng rỗng 
+    Xuất dữ liệu ra bảng 
+
+
+function  Addstudent(){
+        var studentlist = [];
+        var std = new Array(N);
+        var name, age, add, email;
+        for(var i=0; i < std.lenght;i++){
+            std[i].name = prompt(`Nhập Họ và tên ${i}`);
+            std[i].age = prompt(`Nhập tuổi ${i}`);
+            std[i].add = prompt(`Nhập địa chỉ ${i}`);
+            std[i].email = prompt(`Nhập email ${i}`);
+        studentlist["Họ và tên"] = "std[i].name";
+        studentlist["Age"] = "std[i].age";
+        studentlist["Addres"] = "std[i].add";
+        studentlist["Email"] = "std[i].email";
+        }
+
+    }
+
+    N = parseInt(prompt(' Nhap so lượng sinh viên cần nhập N: '));
+    Addstudent();*/
+</script>
+
+
+</table>
+
+</div>
+
+    
+</body>
+</html>
