@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.header{
+    width: 100%;
+}
+.header h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(99, 64, 194);
+    text-decoration: underline;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.main{
+    width: 100%;
+    background-color:rgb(99, 64, 194);
+}
+
+.item{
+    width: 100%;
+    display: flex;
+}
+
+.item label{
+    width: 25%;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+
+}
+
+.item input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item p{
+    padding: 0 10px;
+}
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  */
+body{
+    background-color: rgb(206, 201, 201);
+    width: 100%;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.header{
+    width: 100%;
+}
+
+.header > h1, .header >h2{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header h1{
+    font-size: 300%;
+}
+
+.header h2{
+    font-size: 170%;
+}
+
+.menu{
+    width: 100%; 
+    background-color:blue ;
+   
+}
+
+.menu-bar ul{
+    width: 70%;
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.menu-bar ul>li{
+    margin: 0 auto;
+}
+
+.menu-bar ul li>a{
+    text-decoration: none;
+    color: white;
+ 
+}
+
+.menu-bar ul li:hover >a{
+    cursor: pointer;
+}
+.content{
+   width: 100%;
+}
+
+.content >img{
+    width: 100%;
+    max-height: 500px;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left-main{
+    width: 80%;
+    padding: 10px 10px;
+}
+.left-main>h2{
+    color: blue;
+}
+
+.right-main{
+    width: 20%;
+    background-color:silver;
+}
+
+.item{
+    width: 100%;
+}
+
+.item-head h1{
+    color: blue;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    padding: 0 10px;
+}
+
+
+.item-body >h2, .item-body >p {
+    color: white;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+.item-body>a{
+    color: blue;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+}
+
+.footer p>a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main, .container{ 
+    width: 50%;
+    margin: 0 auto;
+    border: solid 1px rgb(101, 130, 228);
+    margin-top: 30px;
+}
+
+.header{
+    width: 100%;
+    background-color:  rgb(101, 130, 228);
+    line-height: 46px;
+}
+
+.header h2{
+    color: white;.
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.main .item{
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.item label{
+    font-weight: bold;
+
+}
+.item input{
+    width: 100%;
+    padding:5px 10px;
+}
+select{
+    width: 100%;
+}
+.item button{
+    background-color:rgb(82, 243, 82); 
+    border: solid 1px chartreuse; 
+    line-height: 25px; 
+    font-size: 15px;
+    text-align: center; 
+    padding: 5px 5px;
+    color: white;
+    margin: 0 10px;
+}
+
+option{
+    line-height:25px;
+    padding:5px 10px;
+    font-size: 15px;
+}

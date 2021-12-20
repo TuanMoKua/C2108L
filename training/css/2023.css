@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(145, 223, 210);
+    width: 30%;
+    border:groove 1px black;
+    margin: 20px;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header h2{
+    color: rgb(60, 30, 230);
+    border: solid 1px grey;
+    width: 50%;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.main{
+    width: 100%;
+}
+
+.content{
+    width: 90%;
+    margin:10px
+}
+fieldset{
+   margin-bottom: 10px;
+   padding-bottom: 10px;
+}
+
+legend{
+    color: mediumblue;
+}
+
+table, td{
+    border: solid 2px rgb(118, 118, 235);
+}
+ table{
+     width: 100%;
+ }
+.left{
+    width: 30%;
+}
+.right{
+    width: 70%;
+}
+
+label{
+    width: 30%;
+}
+
+.footer{
+    width: 90% ;
+    
+}
+
+.footer .bot{
+    border: soi 1px grey;
+    background-color: rgb(173, 170, 170);
+    width: 100%;
+    line-height: 30px;
+}
+.bot >input{
+    width: 20%;
+    margin: 0 8% 0 8%;
+}

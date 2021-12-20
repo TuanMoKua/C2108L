@@ -8,7 +8,8 @@
 }
 
 .header{
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
 }
 .header .baner{
     width: 100%;
@@ -74,8 +75,9 @@
 }
 
 .main{
-    width: 100%;
+    width: 60%;
     display: flex;
+    margin: 0 auto;
 }
 
 .main .content-left{

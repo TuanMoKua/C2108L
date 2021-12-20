@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/java.js"></script>
+    <title>Document</title>
+</head>
+<body onload="init()">
+    <div class="container">
+        <div class="header">
+            <h2>Đăng nhập hệ thống</h2>
+        </div>
+        
+        <div class="main">
+            <div class="img-left">
+                <img src="./img/login.png" alt="">
+            </div>
+    
+            <div class="login-right">
+                <form  action="" >
+                    <table>
+                        <tr>
+                            <td class="lineone"><label for="">Tài khoản:</label></td><br>
+                            <td><input type="text" name="acount" id="acount_id"></td>
+                        </tr>
+                        <tr>
+                            <td class="line2"><label for="">Mật khẩu:</label></td>
+                            <td><input type="text" name="pass" id="pass_id"></td>
+                        </tr>
+                    </table>
+                    <div class="add">
+                    <input type="submit" name="dangnhap" id="dangnhap_id" value="Đăng Nhập" onclick="saveFile()">
+                    <input type="submit" name="reset" id="reset" value="Nhập lại" onclick="resetFile()">
+                    </div>
+                </form>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>

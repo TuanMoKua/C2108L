@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./java/java.js"></script>
     <title>Order Form </title>
 </head>
 <body>
-    <div class="main">
+    <div class="main"> 
         <div class="header">
                 <h2>Puschase Order Form</h2>
         </div>
@@ -21,7 +22,7 @@
                         <tr>
                     <td class="left"><label for="product">Product:</label></td>
                      <td class="right">
-                        <select name="product" id="product">
+                        <select name="product" id="product" onchange="showproduct()">
                             <option value="">Select</option>
                             <option value="650">Comfort Sleeper</option>
                             <option value="975">Morgan Kids Bed</option>
@@ -32,17 +33,17 @@
 
                      <tr>
                     <td class="left"><label for="unit">Unit Price ($):</label></td>
-                    <td class="right"><input type="number" id="unit" name="unit" ></td>
+                    <td class="right"><input type="number" id="price" name="price" ></td>
                     </tr>
 
                     <tr>
-                        <td class="left"><label for="quantity">Quantity:</label></td>
-                        <td class="right"><input type="number" id="unit" name="unit" ></td>
+                        <td class="left"><label for="quantity" >Quantity:</label></td>
+                        <td class="right"><input type="number" id="quantity" name="quantity" onkeyup="sumtotal()" disabled></td>
                     </tr>
 
                     <tr>
                         <td class="left"><label for="quantity">Total Price ($):</label></td>
-                        <td class="right"><input type="number" id="unit" name="unit" ></td>
+                        <td class="right"><input type="number" id="total" name="total"></td>
                     </tr> 
                 </table>    
                 </fieldset>
@@ -64,7 +65,7 @@
                     <tr>
                         <td class="left"><label for="card">Credit Card:</label></td>
                         <td class="right">
-                        <select name="card" id="card">
+                        <select name="card" id="card" onchange="shownumber()">
                             <option value="">Select</option>
                             <option value="650">VISA</option>
                             <option value="975">Master Card</option>
@@ -76,10 +77,10 @@
                     <tr>
                         <td class="left"><label for="card-number">Credit Card Number:</label></td>
                         <td class="right">
-                            <input type="text" id="card-number" name="card-number"maxlength="4" size="4" >
-                            <input type="text" id="card-number" name="card-number"maxlength="4" size="4">
-                            <input type="text" id="card-number" name="card-number"maxlength="4" size="4" >
-                            <input type="text" id="card-number" name="card-number"maxlength="4" size="4">
+                            <input type="text" class="card-number" name="card-number"maxlength="4" size="4" disabled>
+                            <input type="text" class="card-number" name="card-number"maxlength="4" size="4" disabled>
+                            <input type="text" class="card-number" name="card-number"maxlength="4" size="4" disabled >
+                            <input type="text" class="card-number" name="card-number"maxlength="4" size="4" disabled>
                         </td>
                     </tr>  
                 </table>   
@@ -88,11 +89,10 @@
                     <input type="submit" value="SUBMIT"/>
                     <input type="submit"  value="RESET"/>
                 </div>
+
             </form>
         </div>
     
-    
-
     </div>
 </body>
 </html>

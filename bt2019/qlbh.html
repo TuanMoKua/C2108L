@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/java.js"></script>
+    <title>Information</title>
+</head>
+<body onload="init()">
+    <div class="main">
+        <div class="header">
+            <h2>Input product's detail information</h2>
+        </div>
+
+        <form method="post" onsubmit="return addProduct()">
+        <div class="item">
+            <label for="product">Product Name:</label><br>
+            <input type="text" name="productname" id="productname_id" style="background-color: yellow;">
+        </div>
+        <div class="item">
+            <label for="product">Categroy Name:</label><br>
+            <select  name="categroyname" id="categroy_id" > 
+                <option value="" >-- Selcet --</option>
+            </select>
+        </div>
+        <div class="item">
+            <label for="product">Price:</label><br>
+            <input type="text" name="price" id="price_id"  onchange="updatePrice()" >
+        </div>
+        <div class="item">
+            <label for="product">Quantity:</label><br>
+            <input type="text" name="quantity" id="quantity_id"   onchange="updatePrice()">
+        </div>
+        <div class="item">
+            <label for="product">Total:</label><br>
+            <input type="text" name="total" id="total_id" disabled>
+        </div>
+
+
+        <div class="item">
+            <label for="product">Manufactuner Name:</label><br>
+            <select  name="manufactunername" id="manufactuner_id" onchange="changeManufactuner()" >
+                <option value="">-- Selcet --</option>
+            </select>
+        </div>
+
+        <div class="item">
+            <label for=""></label>
+            <button type="submit"  onclick="addProduct()" id="add-btn">Add Product</button>
+            <button type="reset" style="background-color: coral;"  onclick="resetProduct()">Reset</button>
+        </div>
+    </div>
+</form>
+    <div class="container">
+        <div class="header">
+            <h2>Managenmet Product</h2>
+        </div>
+
+        <table border="2" cellpadding="3" style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Product Name</th>
+                    <th>Categroy Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Manufactuner</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="showtable">
+            </tbody>
+            
+        </table>
+    </div>
+</body> 
+</html>

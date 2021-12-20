@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles2.css">
+    <script src="./js/java2.js"></script>
+    <title>Student Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Student Registrantion form</h2>
+        </div>
+    
+        <div class="main">
+            <form action="">
+            <div class="item">
+                <label for="">Frist name:</label>
+                <input type="text" name="first-name" id="first-name_id" maxlength="30" pattern="[a-zA-Z]" required >
+            </div>
+            
+            <div class="item">
+                <label for="">Last name:</label>
+                <input type="text" name="last-name" id="last-name_id" maxlength="30" pattern="[a-zA-Z]" required >
+            </div>
+
+            <div class="item">
+                <label for="">Date of birthday:</label>
+                <input type="date" name="dob" id="dob_id" form="1980 to 2000" required >
+            </div>
+
+            <div class="item">
+                <label for="">Email id:</label>
+                <input type="email" name="email" id="email_id" required >
+            </div>
+
+            <div class="item">
+                <label for="">Mobie number:</label>
+                <input type="number" name="email" id="email_id" maxlength="10" pattern="[+0-99]-[0-9]" required >
+            </div>
+
+            <div class="item">
+                <label for="">gender:</label>
+                <p style="color: white;">Male<input type="radio" name="gender" value="Male" required ></p>
+                <p style="color: white;">Female<input type="radio" name="gender" value="Female" required ></p>
+            </div>
+
+            <div class="item">
+                <label for="">address:</label>
+               <textarea name="addres" id="" cols="30" rows="10" required>ADDRESS</textarea>
+            </div>
+
+            <div class="item">
+                <label for=""></label>
+               <input type="submit" value="Submit">
+               <input type="reset" value="Reset">
+            </div>
+             </form>  
+        </div>
+    </div>
+</body>
+</html>
